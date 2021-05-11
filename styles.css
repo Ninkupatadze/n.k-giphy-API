@@ -48,7 +48,7 @@ h1{
 }
 
 
-.tab-active{
+.search-btn:focus{
     border:3px solid #7ab5f5;
 }
 
@@ -147,8 +147,8 @@ input{
     width: 90%;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-    row-gap: 20px;
+    justify-content: space-around;
+    
     
 }
 .content{
@@ -157,4 +157,12 @@ input{
 }
 .content-active{
     display: block;
+}
+
+.newGifStyles{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom:40px;
+    
 }

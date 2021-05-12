@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="title">
+    <div class="container">
         <h1> Giphy API Example</h1>
-        <div id="searchButtons">
+        <div class="arvici" id="searchButtons">
             <button class="btn get-gif search-btn">Internet Cats</button>
             <button class="btn get-gif search-btn">Meme's</button>
             <button class="btn get-gif search-btn">Typing</button>
@@ -19,8 +19,8 @@
         </div>
         <div class="searchBar">
             <input type="text" id="searchText">
-            <button id="submit" class="btn submit-btn">Submit</button>
-            <button class="btn get-gif trend-btn ">See what's trending</button>
+            <button class="btn submit-btn" onclick="onClickSubmit()" id="submit">Submit</button>
+            <button onclick="seeTrending()" class="btn get-gif trend-btn ">See what's trending</button>
         </div>
     
         <div class="boundary">
